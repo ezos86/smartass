@@ -1,0 +1,22 @@
+.primary-sidebar li{
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.widget_recent_entries .post-date{
+	font-size:12px;
+}
+
+.nav-menu li{
+	background:none;
+	padding:20px;
+}
+
+.nav-menu li a{
+	color:#8219CC;
+}
+
+.nav-menu li a:hover{
+	color:#883DD8;
+}
