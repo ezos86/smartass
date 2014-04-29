@@ -21,7 +21,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-		<?php query_posts('showposts=5'); ?>
+		<?php //query_posts('showposts=5'); ?>
 		<?php
 			if ( have_posts() ) :
 				// Start the Loop.
@@ -37,6 +37,7 @@ get_header(); ?>
 				endwhile;
 				// Previous/next post navigation.
 				twentyfourteen_paging_nav();
+				paginate_links();
 
 			else :
 				// If no content, include the "No posts found" template.
@@ -44,7 +45,7 @@ get_header(); ?>
 
 			endif;
 		?>
-
+		<?php paginate_links(); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 	<?php get_sidebar( 'content' ); ?>
