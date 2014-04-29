@@ -4233,3 +4233,19 @@ a.post-thumbnail:hover {
 		line-height: 36px;
 	}
 }
+
+
+
+/** Added Styles **/
+
+.widgetGuts dt{
+	color:#fff;
+}
+
+.subscribeButton{
+	background-color:#f1f1f1;
+}
+
+.subscribeButton:hover{
+	color:#8219CC;
+}
