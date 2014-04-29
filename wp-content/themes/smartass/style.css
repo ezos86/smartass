@@ -4242,6 +4242,10 @@ a.post-thumbnail:hover {
 	color:#fff !important;
 }
 
+.widgetGuts .error{
+	display:none;
+}
+
 .subscribeButton{
 	background-color:#f1f1f1 !important;
 }
