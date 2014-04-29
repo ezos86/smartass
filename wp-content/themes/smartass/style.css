@@ -4239,11 +4239,11 @@ a.post-thumbnail:hover {
 /** Added Styles **/
 
 .widgetGuts dt{
-	color:#fff;
+	color:#fff !important;
 }
 
 .subscribeButton{
-	background-color:#f1f1f1;
+	background-color:#f1f1f1 !important;
 }
 
 .subscribeButton:hover{
